@@ -10,7 +10,7 @@ public class Problem10 {
 
         while (count < limit) {
             count = count +1;
-            System.out.println("Count is : " + count);
+            //System.out.println("Count is : " + count);
             for ( i = 2; i <= count; i++){
                 if (count % i == 0) {
                     break;
